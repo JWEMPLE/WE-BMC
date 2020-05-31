@@ -253,6 +253,20 @@ div.message{
 	}
 }
 
+/*Team*/
+#boxes .box1{
+	float: left;
+	width: 30%;
+	padding:10px;
+	padding-left: 20px;
+	text-align: center;
+}
+
+
+.box1 img{
+	width: 160px;
+}
+
 
 /*****TEXT HEADER STYLES*******/
 /*h1, h2, h3, h4{

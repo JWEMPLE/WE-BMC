@@ -22,12 +22,13 @@ ul{
 }
 
 .button_1{
-	height: 38px;
+	height: 35px;
 	background: #32578a;
 	border: 0;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 35px;
+	padding-right: 35px;
 	color: white;
+	font-size: 12px;
 }
 .button_2{
 	height: 38px;
@@ -36,7 +37,7 @@ ul{
 	padding-left: 20px;
 	padding-right: 20px;
 	color: white;
-	font-size: 20px;
+	font-size: 17px;
 }
 
 .dark{
@@ -121,25 +122,30 @@ header .hightlight, header .current a{
 /*Newsletter*/
 
 #newsletter{
-	padding: 15px;
+	padding: 10px;
 	color: white;
 	background: #0d284a;
+	border-bottom: 1px solid black;
 }
 
 #newsletter h1{
 	float: left;
+	padding-left: 250px;
+	font-size:20px;
 }
 
 #newsletter form{
 	float: right;
+	padding-right: 300px;
 	margin-top: 15px;
 }
 
 #newsletter input [type="email"]{
 	padding:4px;
-	height: 25px;
+	height: 20px;
 	width: 250px;
 }
+
 
 /*Boxes*/
 
@@ -159,6 +165,38 @@ header .hightlight, header .current a{
 	width: 90px;
 }
 
+#boxes h1 {
+	font-size: 27px;
+	text-align: center;
+	padding-left: 15px;
+	padding: 5px;
+	background: #0d284a;
+	border-bottom: 1px solid black;
+	color: white;
+}
+
+#boxes h2{
+	font-size: 20px;
+	text-align: left;
+}
+
+#boxes h3{
+	font-size: 18px;
+}
+
+#boxes h4 {
+	font-size: 15px;
+	color: grey;
+}
+
+#boxes p{
+	font-size: 13px;
+	color: grey;
+}
+
+#boxes img{
+	width: 160px;
+}
 /*Section*/
 
 section a{
@@ -216,6 +254,19 @@ div.message{
 }
 
 
+/*Team*/
+#boxes .box1{
+	float: left;
+	width: 30%;
+	padding:10px;
+	padding-left: 20px;
+	text-align: center;
+}
+
+
+.box1 img{
+	width: 160px;
+}
 
 /*Media Queries*/
 @media (max-width: 768px){
@@ -251,20 +302,6 @@ div.message{
 		width: 100%;
 		margin-bottom: 5px;
 	}
-}
-
-/*Team*/
-#boxes .box1{
-	float: left;
-	width: 30%;
-	padding:10px;
-	padding-left: 20px;
-	text-align: center;
-}
-
-
-.box1 img{
-	width: 160px;
 }
 
 

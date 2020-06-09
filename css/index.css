@@ -140,17 +140,16 @@ header .hightlight, header .current a{
 	margin-top: 15px;
 }
 
-#newsletter .button_1 a:hover{
-	color: #grey;
+/*#newsletter .button_1 a:hover{
+	color: grey;
 	font-weight: bold;
-}
+}*/
 
 #newsletter input [type="email"]{
 	padding:4px;
 	height: 20px;
 	width: 250px;
 }
-
 
 /*Boxes*/
 
@@ -202,8 +201,28 @@ header .hightlight, header .current a{
 #boxes img{
 	width: 160px;
 }
+
+#boxes ul{
+	list-style-type: none;
+}
+
+
+#boxes a{
+	color: black;
+	font-size: 13px;
+
+}
+
+#boxes a:hover{
+	color:  #32578a;
+	font-weight: bold;
+}
+
+
+
 /*Section*/
-/*/*
+
+/*
 section #main a{
 	color: black;
 /*	text-decoration: none;*/
@@ -232,10 +251,19 @@ article#main-col{
 	width: 65%;
 }
 
+#main-col a{
+	color: black;
+}
+
 #main-col a:hover {
 	background: white;
 	font-weight: bold;
 	color: #32578a;
+}
+
+#main-col img{
+	width: 70%;
+	padding-left: 100px;
 }
 
 /*Contact*/

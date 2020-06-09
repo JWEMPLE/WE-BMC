@@ -186,6 +186,7 @@ header .hightlight, header .current a{
 
 #boxes h3{
 	font-size: 18px;
+	color: black;
 }
 
 #boxes h4 {
@@ -208,7 +209,7 @@ header .hightlight, header .current a{
 
 
 #boxes a{
-	color: black;
+	color: grey;
 	font-size: 13px;
 
 }

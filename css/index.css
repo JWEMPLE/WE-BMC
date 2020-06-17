@@ -122,7 +122,6 @@ header .hightlight, header .current a{
 /*Newsletter*/
 
 #newsletter{
-	width: 100%;
 	padding: 12px;
 	color: white;
 	background: #0d284a;
@@ -354,10 +353,23 @@ footer p {
 		font-size: 40px;
 	}
 
-	#newsletter h1{
-		text-align: center;
+	section #newsletter {
+		font-size: 15px;
+		float: none;
 		width: 100%;
-		font-size: 10px;
+		text-align: center;
+	}
+
+	#newsletter h1{
+	float: center;
+	width: 100%;
+	font-size: 18px;
+	padding-left: 45px;
+	}
+
+	#newsletter a{
+	float: none;
+	text-decoration: none;
 	}
 
 	#newsletter button,

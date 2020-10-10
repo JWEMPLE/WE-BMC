@@ -109,6 +109,8 @@ header .hightlight, header .current a{
 #showcase {
 	min-height: 400px;
 	background:url('../img/showcase.png')no-repeat 0 -300px;
+	background-size: 100% 200%;
+	width: 100%;
 	text-align: center;
 	color: white;
 }

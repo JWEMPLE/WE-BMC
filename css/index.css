@@ -228,6 +228,8 @@ header .hightlight, header .current a{
 
 #boxes ul{
 	list-style-type: none;
+	font-size: 13px;
+	color: grey;
 }
 
 

@@ -220,6 +220,7 @@ header .hightlight, header .current a{
 #boxes p{
 	font-size: 13px;
 	color: grey;
+	text-align: justify;
 }
 
 #boxes img{

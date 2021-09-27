@@ -7,6 +7,7 @@ The purpose of this website to increase awareness of the club initatives and inc
 To view the current website please click the link below:
 
 www.webmc.ca
+
 https://jwemple.github.io/WE-BMC-Website/
 
 
